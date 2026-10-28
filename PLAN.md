@@ -30,7 +30,7 @@ LearnFlutter/
 
 - [x] Day 1 安装 Flutter SDK、配置 Android Studio / VS Code 插件、`flutter doctor` 全绿、跑起第一个 demo
 - [x] Day 2 Dart 基础：变量、类型推断、空安全（对照 Kotlin `?` / Swift Optional）、`final` vs `const`
-- [ ] Day 3 函数与类：命名参数、构造函数花样（命名构造/工厂/初始化列表）、mixin、extension
+- [x] Day 3 函数与类：命名参数、构造函数花样（命名构造/工厂/初始化列表）、mixin、extension
 - [ ] Day 4 集合与函数式操作、`sealed class` + `switch` 模式匹配、records
 - [ ] Day 5 异步：`Future` / `async` / `await` / `Stream`、事件循环与 Isolate（对照协程 / Swift Concurrency）
 - [ ] Day 6 复盘：Dart 小测验 + 写一个命令行小程序
