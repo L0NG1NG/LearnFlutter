@@ -109,7 +109,6 @@ class Rect extends Shape {
   final double height;
   Rect(this.width, this.height);
 }
-class Triangle extends Shape{}
 
 double area(Shape s) => switch (s) {
   Circle(:final radius) => pi * radius * radius,
