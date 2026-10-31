@@ -17,10 +17,10 @@ const myGuess = <String>[
   '6',
   'b',
   '3',
+  '5',
   '2',
   '4',
-  '5',
-]; //实际 1 a 6 b 3 2 4 5，then会在清空microtask队列执行
+]; // 当初猜的是 1 a 6 b 3 2 4 5（以为 .then 回调进 event 队列）；其实 .then 回调在 microtask 里执行
 
 Future<List<String>> eventLoopDemo() async {
   final log = <String>[];
